@@ -9,7 +9,8 @@
 ?>
 
 	<!-- site footer -->
-	<footer class="clearfix" >
+	<footer id="site-footer" class="clearfix">
+	<h1 class="hidden"><?php get_site_name(); ?>: content info (site footer)</h1>
 		
 		<?php get_footer(); ?>
 		

@@ -7,9 +7,10 @@
 *
 *****************************************************/
 ?><aside id="sidebar">
+  <h2 class="hidden">Further information</h2>
 
 	<div class="section" id="socialmedia" >
-		<h2>Connect</h2>
+		<h3>Connect</h3>
 		<div class="icons">
 		<?php
 			if($innov_settings){

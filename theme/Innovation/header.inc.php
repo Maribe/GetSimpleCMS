@@ -36,7 +36,8 @@
 <body id="<?php get_page_slug(); ?>" >
 	
 	<!-- site header -->
-	<header>
+	<header id="site-header">
+	<h1 class="hidden"><?php get_site_name(); ?>: welcome (site header)</h1>
 		<div class="header">
 			<div class="wrapper">
 				
@@ -45,6 +46,7 @@
 				
 				<!-- main navigation -->
 				<nav id="main-nav">
+				<h2 class="hidden">Main navigation</h2>
 					<ul>
 						<?php get_navigation(get_page_slug(FALSE)); ?>
 					</ul>
